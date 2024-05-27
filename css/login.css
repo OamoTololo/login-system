@@ -1,18 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    font-family: 'Roboto';
+    background: linear-gradient(90deg, rgba(141, 194, 111, 1) 0%, rgba(118, 184, 82, 1));
 }
-.navbar-logo {
-    width: 5%;
-    height: 5%;
+.inner-row {
+    height: 100vh;
 }
-.card-img-top {
-    width: 506px;
-    height: 350px;
-    object-fit: contain;
+.form-box {
+    background: #ffff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5%;
 }
-.footer {
-    position: absolute;
-    bottom: 0;
+.register-form {
+    display: none;
 }
